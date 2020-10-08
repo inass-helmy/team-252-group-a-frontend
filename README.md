@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84711050d85648a68dbe7ee6fa10dd29)](https://app.codacy.com/gh/BuildForSDGCohort2/team-252-group-a-frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/team-252-group-a-frontend&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/84711050d85648a68dbe7ee6fa10dd29)](https://app.codacy.com/gh/BuildForSDGCohort2/instashop-frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/instashop-frontend&utm_campaign=Badge_Grade_Settings)
 
 In the project directory, you can run:
