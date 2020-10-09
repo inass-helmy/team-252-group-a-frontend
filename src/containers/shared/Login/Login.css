@@ -1,0 +1,167 @@
+.container-fluid {
+background-color: white;
+}
+
+.side {
+  background-color: #CEEBB3;
+  height: 100vh;
+}
+
+.hero {
+  height: 30vh;
+  width: 80%;
+  margin-top: 45vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../../../assets/login-img.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  height:20vh;
+  font-size: 1.8em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  color: rgba(94, 125, 49, 1);
+  padding-top: 20vh;
+font-family: semibold;
+}
+
+.header {
+  font-family: semibold;
+  color: rgba(94, 125, 49, 1);
+  font-size: 1.7em;
+}
+
+.btn-row {
+  width: 30vw;
+  margin-bottom: 2em;
+}
+
+.btn {
+  color: rgba(59, 100, 183, 1);
+  color: white;
+  width: 80%;
+  height: 3rem;
+  font-family: semibold;
+  font-weight: 600;
+  font-size: 1em;
+  justify-content: center;
+}
+.facebook {
+  font-weight: bolder;
+  margin-right: 10px;
+  font-size: 1.25em;
+  font-family: font-bold;
+}
+.or {
+  align-self: center;
+  font-family: semibold;
+  font-size: 1.25em;
+  margin-left: 20px;
+  color: rgba(126, 126, 126, 1);
+
+
+}
+
+#formBasicEmail, #formBasicPassword{
+  width: 24vw;
+  height: 3rem;
+  background: rgba(232, 232, 232, 0.21) 0% 0% no-repeat padding-box;
+  border: 2px solid rgba(112, 112, 112, 0.16);
+  border-radius: 10px;
+}
+
+#formBasicEmail::placeholder,  #formBasicPassword::placeholder{
+  color:#9B9B9B;
+  opacity: 0.7;
+
+}
+
+.main-content {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin-bottom: 7vh;
+  width: 9em;
+}
+
+
+.login-btn{
+  background-color: #99C76E;
+  border: 1px solid  #99C76E;
+  color: white;
+  outline: none;
+  margin-top: 2em; 
+  margin-bottom: 2em;
+  width: 165px;
+height: 3rem;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
+.login-btn:hover{
+  background-color: #99C76E;
+  border: 1px solid  #99C76E;
+  outline: none;
+}
+
+.nav-pills .nav-link.active {
+width: 50%;
+text-align: center;
+background: #99C76E;
+border-radius: 28px;
+}
+
+.nav-pills .nav-link {
+  color: #ACACAC;
+  text-align: center;
+  outline: none;
+  font-size: 1em;
+}
+
+.nav-pills:hover, .nav-pills:focus {
+  outline: none;
+
+}
+
+.nav {
+width: 25vw;
+display: flex;
+border-radius: 28px;
+justify-content: space-between;
+text-align: center;
+margin-bottom: 2em;
+background: #E8E8E836;
+
+
+}
+.nav-item {
+font-family: regular;
+color: #ACACAC;
+font-size: 1.125em;
+margin: auto;
+width: 50%;
+
+}
+
+.sign-up{
+  font-size: 1em;
+  color: #9B9B9B;
+}
+
+.signup-link {
+  color: #5E7D31;
+  margin-left: 8px;
+}
+
+input {
+
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0), inset 0 0 0 100px #E8E8E836 !important;
+
+}
