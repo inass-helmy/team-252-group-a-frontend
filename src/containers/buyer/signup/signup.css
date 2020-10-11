@@ -1,0 +1,183 @@
+.container-fluid {
+  background-color: white;
+  }
+  
+  .side {
+    background-color: #CEEBB3;
+    height: 100vh;
+  }
+  
+  .hero {
+    height: 30vh;
+    width: 80%;
+    margin-top: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../../assets/signup-img.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-text {
+    height:20vh;
+    font-size: 1.8em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    color: rgba(94, 125, 49, 1);
+    padding-top: 64px;
+  font-family: semibold;
+  }
+  
+  .header {
+    font-family: semibold;
+    color: rgba(94, 125, 49, 1);
+    font-size: 1.7em;
+  }
+  
+  .btn {
+    color: rgba(59, 100, 183, 1);
+    color: white;
+    margin-bottom: 2em;
+    width: 15em;
+    height: 3rem;
+    font-family: semibold;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+  }
+  .facebook {
+    font-weight: bolder;
+    margin-right: 10px;
+    font-size: 1.25em;
+    font-family: font-bold;
+  }
+  
+  
+  #formGridEmail, #formGridPassword{
+    width: 15em;
+    height: 3rem;
+    background: rgba(232, 232, 232, 0.21) 0% 0% no-repeat padding-box;
+    border: 2px solid rgba(112, 112, 112, 0.16);
+    border-radius: 10px;
+  }
+  
+  #formGridPassword::placeholder,  #formGridEmail::placeholder{
+    color:#9B9B9B;
+    opacity: 0.7;
+  
+  }
+  
+  .main-content {
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo {
+    margin-bottom: 7vh;
+    width: 9em;
+  }
+
+  .action-btn-row{
+    margin-top: 2em; 
+    margin-bottom: 2em;
+    font-size: 1em;
+    min-width: 100%;
+
+  }
+  
+  
+  .login-btn{
+    background-color: #FFB73B;
+    border: 1px solid  #FFB73B;
+    color: white;
+    outline: none;
+    width: 165px;
+    height: 3rem;
+    border-radius: 15px;
+    margin-right: 2.5em;
+
+  }
+  
+  .login-btn:hover{
+    background-color: #FFB73B;
+    border: 1px solid  #FFB73B;
+    outline: none;
+  }
+
+  .check-field {
+    color: #9B9B9B;
+    font-size: 0.88em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .custom-control-label::before, 
+.custom-control-label::after {
+    height: 1.5em;
+    width: 1.5em;
+  }
+
+  .nav-pills .nav-link.active {
+  width: 50%;
+  text-align: center;
+  background: #FFB73B;
+  border-radius: 28px;
+  }
+  
+  .nav-pills .nav-link {
+    color: #ACACAC;
+    text-align: center;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .nav-pills:hover, .nav-pills:focus {
+    outline: none;
+  
+  }
+  
+  .nav {
+  width: 25vw;
+  display: flex;
+  border-radius: 28px;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 2em;
+  background: #E8E8E836;
+  
+  
+  }
+  .nav-item {
+  font-family: regular;
+  color: #ACACAC;
+  font-size: 1.125em;
+  margin: auto;
+  width: 50%;
+  
+  }
+  
+  .sign-in{
+    color: #9B9B9B;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .signin-link {
+    color: #5E7D31;
+    margin-left: 8px;
+  }
+  
+  input {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0), inset 0 0 0 100px #E8E8E836 !important;
+  
+  }
+
+  .row{
+    margin-left: 0px;
+  }

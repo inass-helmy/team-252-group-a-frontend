@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom'
 import './Login.css'
 import {Row, Col, Container, Button, Form, Tabs, Tab} from 'react-bootstrap'
 import logo from '../../../assets/logo.svg'
 
 function Login() {
-  const [key, setKey] = useState('buyer');
+  const [user, setUser] = useState('buyer');
 
   return(
     <Container fluid >
@@ -28,8 +29,8 @@ function Login() {
       <Row>
       <Tabs
       id="controlled-tab-example"
-      activeKey={key}
-      onSelect={(k) => setKey(k)}
+      activeKey={user}
+      onSelect={(k) => setUser(k)}
       variant= "pills"
     >
       <Tab  eventKey="seller" title="Seller" >
@@ -53,7 +54,9 @@ function Login() {
 </Form>
       </Row>
   <Row className="sign-up">
-  Don't have an account yet? <a className="signup-link"> Sign Up</a>
+  Don't have an account yet? <span className="signup-link">
+    <Link to={{pathname: `/${user}/signup`,params: `${user}` }}>Sign Up</Link>
+     </span>
   </Row>
     </Col>
    

@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { AuthProvider } from "./utils/Auth";
 import PrivateRoute from "./utils/PrivateRoute.js";
 import Login from "./containers/shared/Login/Login";
+import Signup from "./containers/buyer/signup/Signup"
 
 const Routes = () => {
   return (
@@ -10,6 +11,9 @@ const Routes = () => {
       <BrowserRouter>
         <div className="bg-primary flex min-h-screen max-h-full">
           <Route exact path="/" component={Login} />
+          <Route exact path="/buyer/signup" component={Signup} />
+          <Route exact path="/seller/signup" component={Signup} />
+
           {/* <PrivateRoute exact path="" component={} /> */}
         </div>
       </BrowserRouter>
